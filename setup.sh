@@ -6,6 +6,33 @@
 #Made for Ubuntu 22.04
 sudo apt update && sudo apt upgrade
 
+# Install GCC/G++
+sudo apt install build-essential
+
+# Install python
+sudo apt install python3 python3-pip
+
+# Install OpenCV
+sudo apt install libopencv-dev python3-opencv
+
+# Install PCL
+sudo apt install libpcl-dev
+
+# Install Tensorflow/Pytorch
+pip install tensorflow torch torchvision torchaudio
+
+# Install Cmake
+sudo apt install cmake
+
+# Install blender
+sudo snap install blender --classic
+
+# Install SSH
+sudo apt install openssh-server
+
+# Install Htop
+sudo apt install htop
+
 # Install terminator
 sudo apt install terminator
 
